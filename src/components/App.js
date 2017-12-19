@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import AddTodo from '../containers/AddTodo';
+import VisibleTodoList from '../containers/VisibleTodoList';
+import Footer from '../components/Footer';
 import logo from './logo.svg';
 import './App.css';
 
@@ -12,6 +15,10 @@ class App extends Component {
             Redux Todo
           </h1>
         </header>
+
+        <AddTodo />
+        <VisibleTodoList />
+        <Footer />
       </div>
     );
   }
