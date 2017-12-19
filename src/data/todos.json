@@ -1,0 +1,15 @@
+{
+  "todos": [
+    {
+      "id": 1513714050824,
+      "text": "Todo 1",
+      "completed": false
+    },
+    {
+      "id": 1513714058442,
+      "text": "Todo 2",
+      "completed": false
+    }
+  ],
+  "visibilityFilter": "SHOW_ALL"
+}
