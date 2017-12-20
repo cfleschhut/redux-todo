@@ -1,5 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
+  font: 16px "Avenir Next", sans-serif;
+  color: #222;
 }
 
 .App-logo {
@@ -8,14 +13,16 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
+  margin: 0 0 40px;
   padding: 20px;
   color: white;
+  background-color: #222;
+  text-align: center;
 }
 
 .App-title {
   font-size: 1.5em;
+  font-weight: 500;
 }
 
 .App-intro {
@@ -25,4 +32,25 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+a {
+  font-weight: 600;
+  color: darkblue;
+  text-decoration: none;
+  border-bottom: 1px solid darkblue;
+}
+
+a:hover {
+  color: #000;
+  border-bottom: none;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
 }

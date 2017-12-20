@@ -16,9 +16,11 @@ class App extends Component {
           </h1>
         </header>
 
-        <AddTodo />
-        <VisibleTodoList />
-        <Footer />
+        <div className="wrapper">
+          <AddTodo />
+          <VisibleTodoList />
+          <Footer />
+        </div>
       </div>
     );
   }
